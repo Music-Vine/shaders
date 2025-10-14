@@ -1,11 +1,11 @@
 'use client';
 
-import { LiquidMetal, liquidMetalPresets } from '@paper-design/shaders-react';
+import { LiquidMetal, liquidMetalPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
-import { LiquidMetalShapes, LiquidMetalShape } from '@paper-design/shaders';
+import { LiquidMetalShapes, LiquidMetalShape } from '@music-vine/shaders';
 import { toHsla } from '@/helpers/color-utils';
 import { ShaderDetails } from '@/components/shader-details';
 import { liquidMetalDef } from '@/shader-defs/liquid-metal-def';

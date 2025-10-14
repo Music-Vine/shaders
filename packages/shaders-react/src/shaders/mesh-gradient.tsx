@@ -9,7 +9,7 @@ import {
   type MeshGradientParams,
   type MeshGradientUniforms,
   type ShaderPreset,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface MeshGradientProps extends ShaderComponentProps, MeshGradientParams {}
 

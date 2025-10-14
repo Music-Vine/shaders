@@ -9,7 +9,7 @@ import {
   type NeuroNoiseParams,
   type NeuroNoiseUniforms,
   type ShaderPreset,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface NeuroNoiseProps extends ShaderComponentProps, NeuroNoiseParams {}
 

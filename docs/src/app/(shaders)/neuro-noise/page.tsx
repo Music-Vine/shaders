@@ -1,6 +1,6 @@
 'use client';
 
-import { NeuroNoise, neuroNoisePresets } from '@paper-design/shaders-react';
+import { NeuroNoise, neuroNoisePresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';

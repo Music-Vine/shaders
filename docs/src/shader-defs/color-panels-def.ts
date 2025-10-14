@@ -1,4 +1,4 @@
-import { colorPanelsPresets } from '@paper-design/shaders-react';
+import { colorPanelsPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { animatedCommonParams } from './common-param-def';
 

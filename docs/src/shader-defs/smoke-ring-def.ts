@@ -1,4 +1,4 @@
-import { smokeRingPresets } from '@paper-design/shaders-react';
+import { smokeRingPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { animatedCommonParams } from './common-param-def';
 

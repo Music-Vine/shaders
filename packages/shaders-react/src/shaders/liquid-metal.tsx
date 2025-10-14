@@ -10,7 +10,7 @@ import {
   defaultObjectSizing,
   getShaderColorFromString,
   LiquidMetalShapes,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface LiquidMetalProps extends ShaderComponentProps, LiquidMetalParams {}
 

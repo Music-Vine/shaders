@@ -1,4 +1,4 @@
-import { paperTexturePresets } from '@paper-design/shaders-react';
+import { paperTexturePresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { staticCommonParams } from './common-param-def';
 

@@ -1,4 +1,4 @@
-import { imageDitheringPresets } from '@paper-design/shaders-react';
+import { imageDitheringPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { staticCommonParams } from './common-param-def';
 

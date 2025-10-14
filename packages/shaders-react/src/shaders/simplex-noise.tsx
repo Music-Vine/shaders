@@ -9,7 +9,7 @@ import {
   type SimplexNoiseParams,
   type ShaderPreset,
   defaultPatternSizing,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface SimplexNoiseProps extends ShaderComponentProps, SimplexNoiseParams {}
 

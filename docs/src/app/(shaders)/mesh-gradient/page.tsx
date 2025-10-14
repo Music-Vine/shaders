@@ -1,11 +1,11 @@
 'use client';
 
-import { MeshGradient, meshGradientPresets } from '@paper-design/shaders-react';
+import { MeshGradient, meshGradientPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
-import { meshGradientMeta } from '@paper-design/shaders';
+import { meshGradientMeta } from '@music-vine/shaders';
 import { useColors } from '@/helpers/use-colors';
 import { ShaderDetails } from '@/components/shader-details';
 import { meshGradientDef } from '@/shader-defs/mesh-gradient-def';

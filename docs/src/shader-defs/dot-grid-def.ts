@@ -1,4 +1,4 @@
-import { dotGridPresets } from '@paper-design/shaders-react';
+import { dotGridPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { staticCommonParams } from './common-param-def';
 

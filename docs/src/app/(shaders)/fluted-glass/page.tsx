@@ -1,12 +1,12 @@
 'use client';
 
-import { FlutedGlass, flutedGlassPresets } from '@paper-design/shaders-react';
+import { FlutedGlass, flutedGlassPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
-import { GlassGridShape, GlassGridShapes, GlassDistortionShape, GlassDistortionShapes } from '@paper-design/shaders';
-import { ShaderFit } from '@paper-design/shaders';
+import { GlassGridShape, GlassGridShapes, GlassDistortionShape, GlassDistortionShapes } from '@music-vine/shaders';
+import { ShaderFit } from '@music-vine/shaders';
 import { levaImageButton } from '@/helpers/leva-image-button';
 import { useState, useEffect, useCallback } from 'react';
 import { ShaderDetails } from '@/components/shader-details';

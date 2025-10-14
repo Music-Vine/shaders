@@ -1,12 +1,12 @@
 'use client';
 
-import { Dithering, ditheringPresets } from '@paper-design/shaders-react';
+import { Dithering, ditheringPresets } from '@music-vine/shaders-react';
 
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
-import { DitheringShape, DitheringShapes, DitheringType, DitheringTypes } from '@paper-design/shaders';
+import { DitheringShape, DitheringShapes, DitheringType, DitheringTypes } from '@music-vine/shaders';
 import { toHsla } from '@/helpers/color-utils';
 import { ShaderDetails } from '@/components/shader-details';
 import { ditheringDef } from '@/shader-defs/dithering-def';

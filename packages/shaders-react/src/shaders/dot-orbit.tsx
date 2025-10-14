@@ -10,7 +10,7 @@ import {
   type DotOrbitUniforms,
   type ShaderPreset,
   defaultPatternSizing,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface DotOrbitProps extends ShaderComponentProps, DotOrbitParams {}
 

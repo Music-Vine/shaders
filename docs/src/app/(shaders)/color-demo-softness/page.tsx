@@ -6,8 +6,8 @@ import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
 
 import { memo } from 'react';
-import { ShaderMount, type ShaderComponentProps } from '@paper-design/shaders-react';
-import { getShaderColorFromString, type ShaderPreset } from '@paper-design/shaders';
+import { ShaderMount, type ShaderComponentProps } from '@music-vine/shaders-react';
+import { getShaderColorFromString, type ShaderPreset } from '@music-vine/shaders';
 import { useColors } from '@/helpers/use-colors';
 import { ShaderContainer } from '@/components/shader-container';
 

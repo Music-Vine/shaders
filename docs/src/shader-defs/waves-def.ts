@@ -1,4 +1,4 @@
-import { wavesPresets } from '@paper-design/shaders-react';
+import { wavesPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { staticCommonParams } from './common-param-def';
 

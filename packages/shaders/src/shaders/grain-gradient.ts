@@ -36,6 +36,7 @@ export const grainGradientMeta = {
  * ---- 5: ripple
  * ---- 6: blob (metaballs)
  * ---- 7: circle imitating 3d look
+ * ---- 8: double sine wave (floating)
  *
  * - u_noiseTexture (sampler2D): pre-computed randomizer source
  *
@@ -250,7 +251,7 @@ void main() {
     float edge = smoothstep(.25, .3, shape);
     shape = mix(.0, shape, edge);
 
-  } else {
+  } else if (u_shape < 7.5) {
     // Sphere
 
     shape_uv *= 2.;
@@ -259,6 +260,14 @@ void main() {
     vec3 lightPos = normalize(vec3(cos(1.5 * t), .8, sin(1.25 * t)));
     shape = .5 + .5 * dot(lightPos, pos);
     shape *= step(0., d);
+
+  } else {
+    // Double wave (floating)
+
+    float wave = cos(.5 * shape_uv.x - 4. * t) * sin(1.5 * shape_uv.x + 2. * t) * (.75 + .25 * cos(6. * t));
+    float distFromCenter = abs(shape_uv.y);
+    float waveThickness = .6;
+    shape = 1. - smoothstep(waveThickness - 1., waveThickness + 1., distFromCenter + wave);
   }
 
   float simplex = snoise(grain_uv * .5);
@@ -327,6 +336,7 @@ export const GrainGradientShapes = {
   ripple: 5,
   blob: 6,
   sphere: 7,
+  doubleWave: 8,
 };
 
 export type GrainGradientShape = keyof typeof GrainGradientShapes;

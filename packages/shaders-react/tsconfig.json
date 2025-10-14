@@ -25,8 +25,8 @@
 
     // Monorepo paths
     "paths": {
-      "@paper-design/shaders": ["../shaders/src"],
-      "@paper-design/shaders/*": ["../shaders/src/*"]
+      "@music-vine/shaders": ["../shaders/src"],
+      "@music-vine/shaders/*": ["../shaders/src/*"]
     }
   },
   "include": ["src/**/*"],

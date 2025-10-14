@@ -3,8 +3,8 @@
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
-import { dotOrbitMeta } from '@paper-design/shaders';
-import { DotOrbit, dotOrbitPresets } from '@paper-design/shaders-react';
+import { dotOrbitMeta } from '@music-vine/shaders';
+import { DotOrbit, dotOrbitPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { useColors } from '@/helpers/use-colors';
 import { toHsla } from '@/helpers/color-utils';

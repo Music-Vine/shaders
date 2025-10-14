@@ -1,6 +1,6 @@
 'use client';
 
-import { PerlinNoise, perlinNoisePresets } from '@paper-design/shaders-react';
+import { PerlinNoise, perlinNoisePresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';

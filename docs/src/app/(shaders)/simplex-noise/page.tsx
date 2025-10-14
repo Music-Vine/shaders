@@ -1,12 +1,12 @@
 'use client';
 
-import { SimplexNoise, simplexNoisePresets } from '@paper-design/shaders-react';
+import { SimplexNoise, simplexNoisePresets } from '@music-vine/shaders-react';
 
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
-import { simplexNoiseMeta } from '@paper-design/shaders';
+import { simplexNoiseMeta } from '@music-vine/shaders';
 import { useColors } from '@/helpers/use-colors';
 import { ShaderDetails } from '@/components/shader-details';
 import { simplexNoiseDef } from '@/shader-defs/simplex-noise-def';

@@ -1,6 +1,6 @@
 'use client';
 
-import { Heatmap, heatmapMeta, heatmapPresets } from '@paper-design/shaders-react';
+import { Heatmap, heatmapMeta, heatmapPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { Suspense, useState } from 'react';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';

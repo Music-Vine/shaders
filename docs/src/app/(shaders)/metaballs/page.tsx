@@ -1,11 +1,11 @@
 'use client';
 
-import { Metaballs, metaballsPresets } from '@paper-design/shaders-react';
+import { Metaballs, metaballsPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
-import { metaballsMeta } from '@paper-design/shaders';
+import { metaballsMeta } from '@music-vine/shaders';
 import { useColors } from '@/helpers/use-colors';
 import { toHsla } from '@/helpers/color-utils';
 import { ShaderDetails } from '@/components/shader-details';

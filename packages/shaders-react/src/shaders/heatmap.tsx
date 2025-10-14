@@ -9,7 +9,7 @@ import {
   defaultObjectSizing,
   toProcessedHeatmap,
   type ImageShaderPreset,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 import { transparentPixel } from '../transparent-pixel.js';
 import { suspend } from '../suspend.js';

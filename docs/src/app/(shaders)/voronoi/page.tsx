@@ -3,8 +3,8 @@
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
-import { Voronoi, voronoiPresets } from '@paper-design/shaders-react';
-import { voronoiMeta } from '@paper-design/shaders';
+import { Voronoi, voronoiPresets } from '@music-vine/shaders-react';
+import { voronoiMeta } from '@music-vine/shaders';
 import { useControls, button, folder } from 'leva';
 import { useColors } from '@/helpers/use-colors';
 import { toHsla } from '@/helpers/color-utils';

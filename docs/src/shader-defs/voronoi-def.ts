@@ -1,4 +1,4 @@
-import { voronoiPresets } from '@paper-design/shaders-react';
+import { voronoiPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { animatedCommonParams } from './common-param-def';
 

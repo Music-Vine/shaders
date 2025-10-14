@@ -8,7 +8,7 @@ import {
   type ShaderPreset,
   type SwirlParams,
   type SwirlUniforms,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 import { colorPropsAreEqual } from '../color-props-are-equal.js';
 
 export interface SwirlProps extends ShaderComponentProps, SwirlParams {}

@@ -1,11 +1,11 @@
 'use client';
 
-import { ImageDithering, imageDitheringPresets } from '@paper-design/shaders-react';
+import { ImageDithering, imageDitheringPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
-import { DitheringType, DitheringTypes, ShaderFit } from '@paper-design/shaders';
+import { DitheringType, DitheringTypes, ShaderFit } from '@music-vine/shaders';
 import { levaImageButton } from '@/helpers/leva-image-button';
 import { useState, useEffect, useCallback } from 'react';
 import { toHsla } from '@/helpers/color-utils';

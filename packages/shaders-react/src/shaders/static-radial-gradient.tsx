@@ -9,7 +9,7 @@ import {
   type StaticRadialGradientParams,
   type StaticRadialGradientUniforms,
   type ShaderPreset,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface StaticRadialGradientProps extends ShaderComponentProps, StaticRadialGradientParams {}
 

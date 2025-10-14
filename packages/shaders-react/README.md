@@ -1,9 +1,9 @@
-# @paper-design/shaders-react
+# @music-vine/shaders-react
 
 ## Usage
 
 ```
-import { MeshGradient, DotOrbit } from '@paper-design/shaders-react';
+import { MeshGradient, DotOrbit } from '@music-vine/shaders-react';
 
 <MeshGradient
     colors={['#5100ff', '#00ff80', '#ffcc00', '#ea00ff']}

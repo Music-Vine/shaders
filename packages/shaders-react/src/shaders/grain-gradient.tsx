@@ -11,7 +11,7 @@ import {
   defaultPatternSizing,
   defaultObjectSizing,
   GrainGradientShapes,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface GrainGradientProps extends ShaderComponentProps, GrainGradientParams {}
 

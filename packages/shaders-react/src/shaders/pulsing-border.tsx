@@ -10,8 +10,8 @@ import {
   type PulsingBorderParams,
   type PulsingBorderUniforms,
   type ShaderPreset,
-} from '@paper-design/shaders';
-import { PulsingBorderAspectRatios } from '@paper-design/shaders';
+} from '@music-vine/shaders';
+import { PulsingBorderAspectRatios } from '@music-vine/shaders';
 
 export interface PulsingBorderProps extends ShaderComponentProps, PulsingBorderParams {}
 

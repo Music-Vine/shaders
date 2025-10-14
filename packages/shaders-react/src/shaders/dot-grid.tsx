@@ -10,7 +10,7 @@ import {
   type DotGridUniforms,
   type ShaderPreset,
   defaultPatternSizing,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface DotGridProps extends ShaderComponentProps, DotGridParams {}
 

@@ -7,7 +7,7 @@ import {
   type PaperShaderElement,
   type ShaderMotionParams,
   type ShaderMountUniforms,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 import { useMergeRefs } from './use-merge-refs.js';
 
 /**

@@ -10,8 +10,8 @@ import {
   defaultPatternSizing,
   defaultObjectSizing,
   DitheringTypes,
-} from '@paper-design/shaders';
-import { DitheringShapes } from '@paper-design/shaders';
+} from '@music-vine/shaders';
+import { DitheringShapes } from '@music-vine/shaders';
 
 export interface DitheringProps extends ShaderComponentProps, DitheringParams {
   /** @deprecated use `size` instead */

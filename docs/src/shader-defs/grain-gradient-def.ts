@@ -1,4 +1,4 @@
-import { grainGradientPresets } from '@paper-design/shaders-react';
+import { grainGradientPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { animatedCommonParams } from './common-param-def';
 
@@ -6,7 +6,7 @@ const defaultParams = grainGradientPresets[0].params;
 
 export const grainGradientDef: ShaderDef = {
   name: 'Grain Gradient',
-  description: 'Multi-color gradients with grainy, noise-textured distortion available in 7 animated abstract forms.',
+  description: 'Multi-color gradients with grainy, noise-textured distortion available in 8 animated abstract forms.',
   params: [
     {
       name: 'colors',
@@ -51,7 +51,7 @@ export const grainGradientDef: ShaderDef = {
       type: 'enum',
       defaultValue: defaultParams.shape,
       description: 'Shape type',
-      options: ['wave', 'dots', 'truchet', 'corners', 'ripple', 'blob', 'sphere'],
+      options: ['wave', 'dots', 'truchet', 'corners', 'ripple', 'blob', 'sphere', 'doubleWave'],
     },
     ...animatedCommonParams,
   ],

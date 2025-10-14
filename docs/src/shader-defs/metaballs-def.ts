@@ -1,4 +1,4 @@
-import { metaballsPresets } from '@paper-design/shaders-react';
+import { metaballsPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { animatedCommonParams } from './common-param-def';
 

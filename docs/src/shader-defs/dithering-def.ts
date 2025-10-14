@@ -1,4 +1,4 @@
-import { ditheringPresets } from '@paper-design/shaders-react';
+import { ditheringPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { animatedCommonParams } from './common-param-def';
 

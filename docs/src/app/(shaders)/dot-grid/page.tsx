@@ -1,10 +1,10 @@
 'use client';
 
-import { DotGrid, dotGridPresets } from '@paper-design/shaders-react';
+import { DotGrid, dotGridPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
-import { DotGridShape, DotGridShapes } from '@paper-design/shaders';
+import { DotGridShape, DotGridShapes } from '@music-vine/shaders';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
 import { toHsla } from '@/helpers/color-utils';
 import { ShaderDetails } from '@/components/shader-details';

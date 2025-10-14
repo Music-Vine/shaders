@@ -1,6 +1,6 @@
 'use client';
 
-import { FlutedGlass, Heatmap, ImageDithering, PaperTexture, Water } from '@paper-design/shaders-react';
+import { FlutedGlass, Heatmap, ImageDithering, PaperTexture, Water } from '@music-vine/shaders-react';
 
 export default function TestPage() {
   return (

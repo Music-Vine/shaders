@@ -1,6 +1,6 @@
 'use client';
 
-import { Spiral, spiralPresets } from '@paper-design/shaders-react';
+import { Spiral, spiralPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';

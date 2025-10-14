@@ -1,11 +1,11 @@
 'use client';
 
-import { Warp, WarpPattern, warpPresets } from '@paper-design/shaders-react';
+import { Warp, WarpPattern, warpPresets } from '@music-vine/shaders-react';
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
-import { warpMeta, WarpPatterns } from '@paper-design/shaders';
+import { warpMeta, WarpPatterns } from '@music-vine/shaders';
 import { useColors } from '@/helpers/use-colors';
 import { ShaderDetails } from '@/components/shader-details';
 import { warpDef } from '@/shader-defs/warp-def';

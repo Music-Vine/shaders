@@ -8,7 +8,7 @@
       "type": "registry:component",
       "title": "Dot Grid Example",
       "description": "Dot Grid shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/dot-grid-example.tsx",
@@ -21,7 +21,7 @@
       "type": "registry:component",
       "title": "Dot Orbit Example",
       "description": "Dot Orbit shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/dot-orbit-example.tsx",
@@ -34,7 +34,7 @@
       "type": "registry:component",
       "title": "God Rays Example",
       "description": "God Rays shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/god-rays-example.tsx",
@@ -47,7 +47,7 @@
       "type": "registry:component",
       "title": "Mesh Gradient Example",
       "description": "Mesh Gradient shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/mesh-gradient-example.tsx",
@@ -60,7 +60,7 @@
       "type": "registry:component",
       "title": "Metaballs Example",
       "description": "Metaballs shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/metaballs-example.tsx",
@@ -73,7 +73,7 @@
       "type": "registry:component",
       "title": "Neuro Noise Example",
       "description": "Neuro Noise shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/neuro-noise-example.tsx",
@@ -86,7 +86,7 @@
       "type": "registry:component",
       "title": "Perlin Noise Example",
       "description": "Perlin Noise shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/perlin-noise-example.tsx",
@@ -99,7 +99,7 @@
       "type": "registry:component",
       "title": "Smoke Ring Example",
       "description": "Smoke Ring shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/smoke-ring-example.tsx",
@@ -112,7 +112,7 @@
       "type": "registry:component",
       "title": "Spiral Example",
       "description": "Spiral shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/spiral-example.tsx",
@@ -125,7 +125,7 @@
       "type": "registry:component",
       "title": "Simplex Noise Example",
       "description": "Simplex Noise shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/simplex-noise-example.tsx",
@@ -138,7 +138,7 @@
       "type": "registry:component",
       "title": "Voronoi Example",
       "description": "Voronoi shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/voronoi-example.tsx",
@@ -151,7 +151,7 @@
       "type": "registry:component",
       "title": "Warp Example",
       "description": "Warp shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/warp-example.tsx",
@@ -164,7 +164,7 @@
       "type": "registry:component",
       "title": "Waves Example",
       "description": "Waves shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/waves-example.tsx",
@@ -177,7 +177,7 @@
       "type": "registry:component",
       "title": "Swirl Example",
       "description": "Swirl shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/swirl-example.tsx",
@@ -190,7 +190,7 @@
       "type": "registry:component",
       "title": "Dithering Example",
       "description": "Dithering shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/dithering-example.tsx",
@@ -203,7 +203,7 @@
       "type": "registry:component",
       "title": "Grain Gradient Example",
       "description": "Grain Gradient shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/grain-gradient-example.tsx",
@@ -216,7 +216,7 @@
       "type": "registry:component",
       "title": "Liquid Metal Example",
       "description": "Liquid Metal shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/liquid-metal-example.tsx",
@@ -229,7 +229,7 @@
       "type": "registry:component",
       "title": "Pulsing Border Example",
       "description": "Pulsing Border shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/pulsing-border-example.tsx",
@@ -242,7 +242,7 @@
       "type": "registry:component",
       "title": "Color Panels Example",
       "description": "Color Panels shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/color-panels-example.tsx",
@@ -255,7 +255,7 @@
       "type": "registry:component",
       "title": "Static Mesh Gradient Example",
       "description": "Static Mesh Gradient shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/static-mesh-gradient-example.tsx",
@@ -268,7 +268,7 @@
       "type": "registry:component",
       "title": "Static radial Gradient Example",
       "description": "Static radial Gradient shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/static-radial-gradient-example.tsx",
@@ -281,7 +281,7 @@
       "type": "registry:component",
       "title": "Paper Texture Example",
       "description": "Paper Texture shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/paper-texture-example.tsx",
@@ -294,7 +294,7 @@
       "type": "registry:component",
       "title": "Fluted Glass Example",
       "description": "Fluted Glass shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/fluted-glass-example.tsx",
@@ -307,7 +307,7 @@
       "type": "registry:component",
       "title": "Water Example",
       "description": "Water shader example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/water-example.tsx",
@@ -320,7 +320,7 @@
       "type": "registry:component",
       "title": "Image Dithering Example",
       "description": "Image dithering example.",
-      "dependencies": ["@paper-design/shaders-react"],
+      "dependencies": ["@music-vine/shaders-react"],
       "files": [
         {
           "path": "registry/image-dithering-example.tsx",

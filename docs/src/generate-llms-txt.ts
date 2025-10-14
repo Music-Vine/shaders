@@ -61,10 +61,10 @@ ${shader.params
 
 ## Usage Examples
 
-Each shader can be used in React applications with the @paper-design/shaders-react package:
+Each shader can be used in React applications with the @music-vine/shaders-react package:
 
 \`\`\`tsx
-import { ShaderName } from '@paper-design/shaders-react'
+import { ShaderName } from '@music-vine/shaders-react'
 
 <ShaderName
   height={500}
@@ -72,10 +72,10 @@ import { ShaderName } from '@paper-design/shaders-react'
 />
 \`\`\`
 
-For GLSL usage, import from @paper-design/shaders:
+For GLSL usage, import from @music-vine/shaders:
 
 \`\`\`ts
-import { shaderName } from '@paper-design/shaders'
+import { shaderName } from '@music-vine/shaders'
 \`\`\`
 `;
 

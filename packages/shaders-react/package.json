@@ -1,5 +1,5 @@
 {
-  "name": "@paper-design/shaders-react",
+  "name": "@music-vine/shaders-react",
   "version": "0.0.57",
   "license": "SEE LICENSE IN https://github.com/paper-design/shaders/blob/main/LICENSE",
   "type": "module",
@@ -24,7 +24,7 @@
     "type-check": "tsc --project tsconfig.json"
   },
   "dependencies": {
-    "@paper-design/shaders": "workspace:*"
+    "@music-vine/shaders": "workspace:*"
   },
   "devDependencies": {
     "@types/react": "19.1.0"

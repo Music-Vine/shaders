@@ -11,7 +11,7 @@ import {
   StaticRadialGradient,
   Swirl,
   Waves,
-} from '@paper-design/shaders-react';
+} from '@music-vine/shaders-react';
 
 export const appThumbnails = homeThumbnails.map((item) => {
   if (item.ShaderComponent === StaticRadialGradient) {

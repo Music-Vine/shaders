@@ -120,12 +120,12 @@ export function ShaderDetails({
 }) {
   const componentName = shaderDef.name.replace(/ /g, '');
 
-  const installationCode = 'npm i @paper-design/shaders-react';
+  const installationCode = 'npm i @music-vine/shaders-react';
   const image = codeSampleImageName
     ? `https://shaders.paper.design/${codeSampleImageName}`
     : 'https://paper.design/flowers.webp';
 
-  const code = `import { ${componentName} } from '@paper-design/shaders-react';
+  const code = `import { ${componentName} } from '@music-vine/shaders-react';
 
 <${componentName}
   width={1280}

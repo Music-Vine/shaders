@@ -5,8 +5,8 @@ import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-para
 import { usePresetHighlight } from '@/helpers/use-preset-highlight';
 import { cleanUpLevaParams } from '@/helpers/clean-up-leva-params';
 import { memo } from 'react';
-import { getShaderColorFromString, type ShaderPreset } from '@paper-design/shaders';
-import { ShaderMount, ShaderComponentProps } from '@paper-design/shaders-react';
+import { getShaderColorFromString, type ShaderPreset } from '@music-vine/shaders';
+import { ShaderMount, ShaderComponentProps } from '@music-vine/shaders-react';
 import { useColors } from '@/helpers/use-colors';
 import { ShaderContainer } from '@/components/shader-container';
 

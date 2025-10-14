@@ -10,7 +10,7 @@ import {
   type ShaderPreset,
   type SmokeRingParams,
   type SmokeRingUniforms,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface SmokeRingProps extends ShaderComponentProps, SmokeRingParams {}
 

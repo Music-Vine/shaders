@@ -10,7 +10,7 @@ import {
   type ImageShaderPreset,
   type PaperTextureParams,
   type PaperTextureUniforms,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface PaperTextureProps extends ShaderComponentProps, PaperTextureParams {
   /** @deprecated use `fiberSize` instead */

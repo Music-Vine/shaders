@@ -1,4 +1,4 @@
-import { getShaderColorFromString } from '@paper-design/shaders';
+import { getShaderColorFromString } from '@music-vine/shaders';
 import {
   convertRgbToHsl,
   convertHslToRgb,

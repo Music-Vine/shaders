@@ -77,7 +77,7 @@ import {
   imageDitheringPresets,
   Heatmap,
   heatmapPresets,
-} from '@paper-design/shaders-react';
+} from '@music-vine/shaders-react';
 import { StaticImageData } from 'next/image';
 
 export type HomeShaderConfig = {

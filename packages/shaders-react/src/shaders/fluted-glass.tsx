@@ -9,7 +9,7 @@ import {
   GlassDistortionShapes,
   GlassGridShapes,
   type ImageShaderPreset,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface FlutedGlassProps extends ShaderComponentProps, FlutedGlassParams {
   /** @deprecated use `size` instead */

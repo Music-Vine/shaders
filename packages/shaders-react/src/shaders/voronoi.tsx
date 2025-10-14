@@ -10,7 +10,7 @@ import {
   type VoronoiParams,
   type VoronoiUniforms,
   type ShaderPreset,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface VoronoiProps extends ShaderComponentProps, VoronoiParams {}
 

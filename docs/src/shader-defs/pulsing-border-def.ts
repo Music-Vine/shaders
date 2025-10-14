@@ -1,4 +1,4 @@
-import { pulsingBorderPresets } from '@paper-design/shaders-react';
+import { pulsingBorderPresets } from '@music-vine/shaders-react';
 import type { ShaderDef } from './shader-def-types';
 import { animatedCommonParams } from './common-param-def';
 

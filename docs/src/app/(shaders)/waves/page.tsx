@@ -1,6 +1,6 @@
 'use client';
 
-import { Waves, type WavesParams, wavesPresets } from '@paper-design/shaders-react';
+import { Waves, type WavesParams, wavesPresets } from '@music-vine/shaders-react';
 
 import { useControls, button, folder } from 'leva';
 import { setParamsSafe, useResetLevaParams } from '@/helpers/use-reset-leva-params';

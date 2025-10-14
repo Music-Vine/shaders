@@ -9,7 +9,7 @@ import {
   type StaticMeshGradientParams,
   type StaticMeshGradientUniforms,
   type ShaderPreset,
-} from '@paper-design/shaders';
+} from '@music-vine/shaders';
 
 export interface StaticMeshGradientProps extends ShaderComponentProps, StaticMeshGradientParams {}
 
