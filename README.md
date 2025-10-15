@@ -73,6 +73,29 @@ import {MeshGradient, DotOrbit} from '@music-vine/shaders-react';
 
 ## Building and publishing
 
+### Automated release (recommended)
+
+```bash
+# Patch version (0.0.58 -> 0.0.59)
+bun run release
+
+# Minor version (0.0.58 -> 0.1.0)
+bun run release minor
+
+# Major version (0.0.58 -> 1.0.0)
+bun run release major
+```
+
+This will automatically:
+1. Bump version in both package.json files
+2. Create git commit with message "Publish X.X.X"
+3. Create git tag vX.X.X
+4. Push commit and tag to remote
+5. Build packages
+6. Publish to npm
+
+### Manual release
+
 1. Bump the version numbers as desired manually
 2. Use `bun run build` on the top level of the monorepo to build each package
 3. Use `bun run publish-all` to publish all (or `bun run publish-all-test` to do a dry run). You can do this even if you just bumped one package version. The others will fail to publish and continue.

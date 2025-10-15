@@ -10,6 +10,7 @@
   ],
   "scripts": {
     "build": "bun run build.js",
+    "release": "bun run release.js",
     "publish-all": "run-s clean build && bun run publish.js",
     "publish-all-test": "run-s clean build && bun run publish.js --dry-run",
     "dev:docs": "bun run --filter docs dev",
