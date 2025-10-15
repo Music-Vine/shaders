@@ -8,6 +8,7 @@ const config = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  transpilePackages: ['@music-vine/shaders', '@music-vine/shaders-react'],
   rewrites: async () => [
     {
       source: '/registry/:path*',

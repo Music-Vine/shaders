@@ -36,7 +36,7 @@ export const grainGradientMeta = {
  * ---- 5: ripple
  * ---- 6: blob (metaballs)
  * ---- 7: circle imitating 3d look
- * ---- 8: double sine wave (floating)
+ * ---- 8: waveform (multiple flowing waves)
  *
  * - u_noiseTexture (sampler2D): pre-computed randomizer source
  *
@@ -262,11 +262,20 @@ void main() {
     shape *= step(0., d);
 
   } else {
-    // Double wave (floating)
+    // Waveform - multiple independent flowing waves
 
-    float wave = cos(.5 * shape_uv.x - 4. * t) * sin(1.5 * shape_uv.x + 2. * t) * (.75 + .25 * cos(6. * t));
+    // Create multiple wave components with different frequencies and speeds
+    // Use power to smooth the waves into rounder curves
+    float wave1 = pow(sin(2.0 * shape_uv.x - 3.5 * t) * 0.5 + 0.5, 2.0) * 0.6 - 0.3;
+    float wave2 = pow(sin(3.5 * shape_uv.x + 2.2 * t) * 0.5 + 0.5, 2.0) * 0.5 - 0.25;
+    float wave3 = pow(cos(1.8 * shape_uv.x - 1.8 * t) * 0.5 + 0.5, 2.0) * 0.4 - 0.2;
+    float wave4 = pow(cos(4.2 * shape_uv.x + 3.0 * t) * 0.5 + 0.5, 2.0) * 0.3 - 0.15;
+
+    // Combine waves for complex waveform
+    float wave = wave1 + wave2 + wave3 + wave4;
+
     float distFromCenter = abs(shape_uv.y);
-    float waveThickness = .6;
+    float waveThickness = 0.6;
     shape = 1. - smoothstep(waveThickness - 1., waveThickness + 1., distFromCenter + wave);
   }
 
@@ -336,7 +345,7 @@ export const GrainGradientShapes = {
   ripple: 5,
   blob: 6,
   sphere: 7,
-  doubleWave: 8,
+  waveform: 8,
 };
 
 export type GrainGradientShape = keyof typeof GrainGradientShapes;

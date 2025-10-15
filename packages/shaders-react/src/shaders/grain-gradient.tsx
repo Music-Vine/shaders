@@ -110,6 +110,23 @@ export const blobPreset: GrainGradientPreset = {
   },
 };
 
+export const waveformPreset: GrainGradientPreset = {
+  name: 'Waveform',
+  params: {
+    ...defaultPatternSizing,
+    speed: 1.76,
+    frame: 0,
+    scale: 0.24,
+    offsetX: -0.24,
+    colorBack: '#ffffff',
+    colors: ['#6997ba', '#29588e', '#152556', '#050321'],
+    softness: 1,
+    intensity: 0.15,
+    noise: 0.1,
+    shape: 'waveform',
+  },
+};
+
 export const grainGradientPresets: GrainGradientPreset[] = [
   defaultPreset,
   wavePreset,
@@ -117,6 +134,7 @@ export const grainGradientPresets: GrainGradientPreset[] = [
   truchetPreset,
   ripplePreset,
   blobPreset,
+  waveformPreset,
 ];
 
 export const GrainGradient: React.FC<GrainGradientProps> = memo(function GrainGradientImpl({

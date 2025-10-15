@@ -51,7 +51,7 @@ export const grainGradientDef: ShaderDef = {
       type: 'enum',
       defaultValue: defaultParams.shape,
       description: 'Shape type',
-      options: ['wave', 'dots', 'truchet', 'corners', 'ripple', 'blob', 'sphere', 'doubleWave'],
+      options: ['wave', 'dots', 'truchet', 'corners', 'ripple', 'blob', 'sphere', 'waveform'],
     },
     ...animatedCommonParams,
   ],
