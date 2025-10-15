@@ -1,4 +1,6 @@
-# Paper Shaders
+# Music Vine Shaders
+
+> **Note:** This project is a fork of [Paper Shaders](https://github.com/paper-design/shaders), customized and maintained specifically for the needs of Music Vine and Uppbeat.
 
 ![mesh-gradient-shader](./docs/public/images/git-readme-picture.webp)
 

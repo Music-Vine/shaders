@@ -23,8 +23,8 @@ async function build(packageDir) {
   // prettier-ignore
   const banner =
 `/* * * * * * * * * * * * * * * * * * * * * * * * * * * *
- *                    Paper Shaders                    *
- *       https://github.com/paper-design/shaders       *
+ *                  Music Vine Shaders                  *
+ *         https://github.com/music-vine/shaders        *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 `;
 

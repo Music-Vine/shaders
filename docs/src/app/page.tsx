@@ -15,15 +15,15 @@ export default function Home() {
         <div className="mb-64 flex w-full items-center justify-between sm:mb-48 md:mb-32">
           <Link
             className="-mx-6 flex px-6 outline-0 outline-offset-2 outline-focus focus-visible:rounded-sm focus-visible:outline-2"
-            href="https://paper.design/"
+            href="https://musicvine.com/"
             target="_blank"
           >
-            <Logo />
+            <Logo className='h-24 w-auto' />
           </Link>
 
           <Link
             className="flex outline-0 outline-offset-4 outline-focus focus-visible:rounded-full focus-visible:outline-2"
-            href="https://github.com/paper-design/shaders"
+            href="https://github.com/music-vine/shaders"
             target="_blank"
           >
             <GithubIcon className="size-28" />
@@ -32,12 +32,11 @@ export default function Home() {
 
         <div className="mx-auto mb-8 flex flex-col items-center gap-8 text-center">
           <h1
-            className="text-3xl font-light lowercase xs:text-4xl"
-            style={{ fontFeatureSettings: '"ss01"', wordSpacing: '0.1em' }}
+            className="text-3xl font-light xs:text-4xl"
           >
-            Paper Shaders
+            Music Vine Shaders
           </h1>
-          <p className="max-w-256 text-lg text-current/70">ultra fast zero-dependency shaders for your designs</p>
+          <p className="max-w-384 text-lg text-current/70">Ultra fast zero-dependency shaders</p>
         </div>
 
         <div className="mx-auto mt-20 flex h-48 w-fit max-w-full items-center rounded-lg border border-current/20 bg-white font-mono text-sm text-nowrap sm:text-base dark:bg-[#111]">
@@ -49,6 +48,21 @@ export default function Home() {
             className="hidden h-full w-48 shrink-0 items-center justify-center rounded-r-[inherit] outline-0 outline-focus focus-visible:outline-2 xs:flex"
             getText={() => 'npm i @music-vine/shaders-react'}
           />
+        </div>
+
+        <div className="mx-auto mt-8 flex flex-col items-center gap-8 text-center">
+          <p className="max-w-384 text-sm text-current/50 text-balance">
+            Forked from{' '}
+            <a
+              href="https://github.com/paper-design/shaders"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-current/70"
+            >
+              Paper Shaders
+            </a>
+            {' '}and customized for Music Vine & Uppbeat
+          </p>
         </div>
       </div>
 

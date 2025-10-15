@@ -26,4 +26,4 @@ import { MeshGradient, DotOrbit } from '@music-vine/shaders-react';
 
 ## Release notes
 
-[View changelog →](https://github.com/paper-design/shaders/blob/main/CHANGELOG.md)
+[View changelog →](https://github.com/music-vine/shaders/blob/main/CHANGELOG.md)
